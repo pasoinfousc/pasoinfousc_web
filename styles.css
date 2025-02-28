@@ -3189,6 +3189,19 @@ blockquote {
   position: relative;
 }
 
+.section-copy {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  display: block;
+  position: relative;
+}
+
 .section.section-hero {
   justify-content: space-between;
   align-items: center;
@@ -3523,7 +3536,7 @@ blockquote {
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
   width: 100%;
   max-width: 100%;
@@ -3604,6 +3617,13 @@ blockquote {
   width: 100%;
   height: 100%;
 }
+
+.image-4 {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
 
 .hero-background.background-mobile {
   display: none;
@@ -4696,7 +4716,7 @@ blockquote {
   }
 
   .press-logos-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .press-logo-container {
@@ -5480,7 +5500,7 @@ blockquote {
   .press-logos-grid {
     grid-column-gap: .5625em;
     grid-row-gap: .5625em;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .press-logo-container {
