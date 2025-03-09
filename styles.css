@@ -274,7 +274,24 @@ html.w-mod-touch * {
   display: inline-block;
 }
 
+.w2-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2vw;
+}
+
 input.w-button {
+  -webkit-appearance: button;
+}
+
+input.w2-button {
   -webkit-appearance: button;
 }
 
@@ -3527,7 +3544,6 @@ blockquote {
   place-items: center;
   width: 80%;
   max-width: 80%;
-  margin-bottom: 2vw;
 }
 
 .press-logo-container {
