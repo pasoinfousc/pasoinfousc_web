@@ -3527,6 +3527,7 @@ blockquote {
   place-items: center;
   width: 80%;
   max-width: 80%;
+  margin-bottom: 2vw;
 }
 
 .press-logo-container {
